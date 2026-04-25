@@ -21,5 +21,15 @@ textfield=tk.Entry(root,justify="center",width=17,font=("poppins",25,"bold"),bg=
 textfield.place(x=50,y=40)
 textfield.focus()
 
+Search_icon=PhotoImage(file="search_icon.png")
+logo=Label(image=Search_icon)
+logo.place(x=150,y=100)
+
+#Logo
+Logo_image=PhotoImage(file="logo.png")
+logo=Label(image=Logo_image)
+logo.place(x=500,y=100)
+
+
 
 
