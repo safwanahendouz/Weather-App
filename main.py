@@ -77,6 +77,14 @@ def getWeather():
     d.config(text=description)
     p.config(text=pressure)
 
+Search_icon.bind("<Button-1>",lambda event:getWeather())
+clock=Label(root,font=("Helvetica",20),fg="white",bg="#1ab5ef")
+clock.place(x=30,y=20)
+name=Label(root,font=("Helvetica",15,"bold"),fg="white",bg="#1ab5ef")
+name.place(x=30,y=50)
+t=Label(font=("Helvetica",70,"bold"),fg="#ee666d")
+t.place(x=500,y=200)
+
 
 
 
