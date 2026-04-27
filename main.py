@@ -84,6 +84,14 @@ name=Label(root,font=("Helvetica",15,"bold"),fg="white",bg="#1ab5ef")
 name.place(x=30,y=50)
 t=Label(font=("Helvetica",70,"bold"),fg="#ee666d")
 t.place(x=500,y=200)
+c=Label(font=("Helvetica",15,"bold"),fg="#ee666d")
+c.place(x=500,y=300)
+w=Label(text="...",font=("Helvetica",15,"bold"),bg="#1ab5ef",fg="white")
+w.place(x=120,y=430)
+h=Label(text="...",font=("Helvetica",15,"bold"),bg="#1ab5ef",fg="white")
+h.place(x=250,y=430)
+d=Label(text="...",font=("Helvetica",15,"bold"),bg="#1ab5ef",fg="white")
+d.place(x=430,y=430)
 
 
 
