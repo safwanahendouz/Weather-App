@@ -92,6 +92,13 @@ h=Label(text="...",font=("Helvetica",15,"bold"),bg="#1ab5ef",fg="white")
 h.place(x=250,y=430)
 d=Label(text="...",font=("Helvetica",15,"bold"),bg="#1ab5ef",fg="white")
 d.place(x=430,y=430)
+p=Label(text="...",font=("Helvetica",15,"bold"),bg="#1ab5ef",fg="white")
+p.place(x=650,y=430)
+root.mainloop()
+
+
+
+
 
 
 
